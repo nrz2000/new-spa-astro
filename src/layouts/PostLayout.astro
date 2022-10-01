@@ -1,0 +1,16 @@
+---
+import { MarkdownLayoutProps } from "astro";
+import BaseLayout, { Props }  from "./BaseLayout.astro";
+
+
+const { frontmatter } = Astro.props as MarkdownLayoutProps<Props>;
+---
+<BaseLayout {...frontmatter}>
+  <main class="container mx-auto">
+    <h1>{frontmatter.title}</h1>
+    <p>{frontmatter.description}</p>
+    <div class="mt-4">
+      <slot />
+    </div>
+  </main>
+</BaseLayout>
