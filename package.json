@@ -2,6 +2,7 @@
   "name": "new-spa-astro",
   "version": "0.0.1",
   "private": true,
+  "homepage": "https://nrz2000.github.io/new-spa-astro/assets",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
