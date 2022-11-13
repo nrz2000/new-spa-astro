@@ -7,5 +7,4 @@ import react from '@astrojs/react';
 export default defineConfig({
   integrations: [tailwind(), react()],
   site: 'https://nrz2000.github.io',
-  base: '/new-spa-astro',
 });
